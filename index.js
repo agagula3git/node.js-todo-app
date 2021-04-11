@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const Todos = require('./models/db');
 const ejs = require('ejs');
-const { findOneAndRemove } = require('./models/db');
 
 var todos = []; // initialize object for storing a data from our database
 const PORT = process.env.PORT || 3000;

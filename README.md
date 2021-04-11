@@ -1,12 +1,11 @@
 # Node.Js Complete Crud App - Todo List
 
-This web app is implemented as a single-page application (SPA). Todo app is a great example of a project for implementation the four basic functions that models should be able to do, at most. Create, read, update and delete with Node.Js and MongoDB.
-Mongoose Model is created through the Schema interface for interacting with MongoDB.
+This web app is implemented as a single-page application (SPA). Todo app is a great example of a project for implementation the four basic functions that models should be able to do, at most.Create, read, update and delete with Node.Js and MongoDB.
+Mongoose Model is created through the Schema interface for interacting with MongoDB.  
 
-<img src="C:\Users\ASUS\desktop\Capture.PNG" alt="home page" width="600" height="400" border="10"> 
---- 
+<img src="test.PNG" raw=true width="500" height="400" alt="Home Page" /> 
+
 ## Requirments
----
 
 * express @4.17.1
 * mongoose @5.3.4
@@ -15,7 +14,7 @@ Mongoose Model is created through the Schema interface for interacting with Mong
 * path @0.12.7
 
 ## Installation
----
+
 Create a package.json file
 ```bash
 npm init
@@ -58,8 +57,8 @@ This will start the server. This single-page application will listen on port 300
 
 If you want to avoid typing the previous command every time you save changes, I will advise you to install nodemon dependencies. It helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
-## Usage 
----
+## Usage
+
 Include the express module in your main js file by typing the following code:
 
 ```python
@@ -126,6 +125,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 ```
+---
 
 
 
