@@ -3,7 +3,7 @@
 This web app is implemented as a single-page application (SPA). Todo app is a great example of a project for implementation the four basic functions that models should be able to do, at most.Create, read, update and delete with Node.Js and MongoDB.
 Mongoose Model is created through the Schema interface for interacting with MongoDB.  
 
-<img src="test.PNG" raw=true width="500" height="400" alt="Home Page" /> 
+<img src="test.PNG" raw=true width="80%" height="40%" alt="Homepage" /> 
 
 ## Requirments
 
