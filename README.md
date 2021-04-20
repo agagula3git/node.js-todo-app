@@ -5,7 +5,7 @@ Mongoose Model is created through the Schema interface for interacting with Mong
 
 <img src="test.PNG" raw=true width="80%" height="40%" alt="Homepage" /> 
 
-## Requirments
+## Requirements
 
 * express @4.17.1
 * mongoose @5.3.4
